@@ -28,5 +28,5 @@ form.addEventListener('submit', function (event) {
       const layout = 'Не смогли найти пользователя🙄';
       message.textContent = layout;
     }
-  })
+  }).catch(function (err) { alert('Ошибка подключения к серверу') })
 })
