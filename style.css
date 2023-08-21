@@ -1,0 +1,45 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/732/454/original/night-in-coniferous-forest-with-mountain-rising-moon-and-stars-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+form {
+  border: 2px solid red;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 350px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+}
+h1,
+h2 {
+  color: white;
+}
+input {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  outline: none;
+  padding: 20px;
+  color: white;
+  background: transparent;
+  height: 50px;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  height: 50px;
+  background: white;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
