@@ -30,11 +30,3 @@ form.addEventListener('submit', function (event) {
     }
   })
 })
-
-
-//ДАННЫЕ ДЛЯ ВХОДА
-// $users = [
-//   ['login' => 'user1', 'password' => 'user1qwe'],
-//   ['login' => 'user2', 'password' => 'user2asd'],
-//   ['login' => 'user3', 'password' => 'user3zxc']
-// ];
